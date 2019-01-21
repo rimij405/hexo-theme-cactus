@@ -1,3 +1,7 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
 ##############################################################################
 # Content
 ##############################################################################
@@ -5,7 +9,7 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: http://github.com/probberechts
+projects_url: http://github.com/rimij405
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
@@ -14,22 +18,22 @@ direction: ltr
 # navigation menu. Optionally, you can add translations for the 'Key' in
 # languages/*.yml
 nav:
-  home: /
-  about: /about/
-  articles: /archives/
-  projects: projects_url
-
+  Home: /
+  About: /about
+  Blog: /blog/
+  Archive: /archives/
+  Projects: http://github.com/rimij405
 
 # Links to your social media accounts.
 # The keys should correspond to Fontawesome icon names
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
 social_links:
-  github: http://github.com/probberechts/cactus-dark
-  twitter: /
-  facebook: /
-  linkedin: /
-  mail: mailto:name@email.com
+  github: http://github.com/rimij405
+  #twitter: /
+  facebook: https://www.facebook.com/effendiian
+  linkedin: http://linkedin.com/in/effendiian
+  mail: mailto:effendiian@gmail.com
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -51,7 +55,7 @@ posts_overview:
 archive:
   sort_updated: false
 
-# Customize the article view.
+# Customize the post view.
 # Options:
 #   - show_updated: show the last modification date.
 post:
@@ -72,8 +76,8 @@ logo:
   enabled: true
   width: 50
   height: 50
-  url: /images/logo.png
-  gravatar: false
+  # url: /
+  gravatar: true
 
 # Customize the favicons.
 # Cactus supports a limited set of the three most important icons:
@@ -113,7 +117,7 @@ page_width: 48
 ##############################################################################
 
 # Enable or disable the RSS feed.
-rss: false
+rss:
 
 # Turn your web pages into graph objects (see http://ogp.me).
 open_graph:
@@ -133,16 +137,16 @@ disqus:
   shortname: cactus-1
 
 # Fill in your Google Analytics tracking ID to enable Google Analytics.
-google_analytics:
-  enabled: false
-  id: UA-86660611-1
+# google_analytics:
+#  enabled: false
+#  id: UA-86660611-1
 
 # Fill in your Baidu Analytics tracking ID to enable Baidu Analytics.
-baidu_analytics:
-  enabled: false
-  id: 2e6da3c375c8a87f5b664cea6d4cb29c
+# baidu_analytics:
+#  enabled: false
+#  id: 2e6da3c375c8a87f5b664cea6d4cb29c
 
 # Fill in you Gravatar user id / email if you want to use your gravatar as the
 # logo and/or favicons of you website.
 gravatar:
-  email: name@email.com
+  email: effendiian@gmail.com

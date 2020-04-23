@@ -9,7 +9,8 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: http://github.com/rimij405
+projects_url: 
+# projects_url: https://github.com/rimij405
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
@@ -22,15 +23,15 @@ nav:
   About: /about
   Blog: /blog/
   Archive: /archives/
-  Projects: http://github.com/rimij405
+  Projects: /projects/
 
 # Links to your social media accounts.
 # The keys should correspond to Fontawesome icon names
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
 social_links:
-  github: http://github.com/rimij405
-  # twitter: /
+  github: https://github.com/rimij405
+  twitter: https://twitter.com/az019er
   facebook: https://www.facebook.com/effendiian
   linkedin: http://linkedin.com/in/effendiian
   mail: mailto:effendiian@gmail.com
